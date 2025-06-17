@@ -134,3 +134,53 @@
 .container{
     margin-top: 15px;
 }
+
+@media (max-width: 768px) {
+    .features-section {
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px 10px;
+    }
+
+    .btn1, .button1 {
+        width: 100% !important;
+    }
+
+    .search {
+        width: 100% !important;
+        margin: 10px 0;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .main h1 {
+        font-size: 2rem;
+    }
+
+    .main {
+        height: auto;
+        padding: 60px 0;
+    }
+}
+@media (max-width: 576px) {
+    .card-body img,
+    .about img {
+        width: 100%;
+        height: auto;
+    }
+
+    .btn1 {
+        width: 100%;
+    }
+}
+@media (max-width: 576px) {
+    .form-control {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
