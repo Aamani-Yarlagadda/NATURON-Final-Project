@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: black;
+    font-family: cursive;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: sans-serif;
+    border: 2px solid rgb(248, 26, 92);
+}
+
+.button1 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.main {
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/025/374/136/small_2x/an-assortment-of-fresh-fruits-and-vegetables-on-a-green-background-created-with-generative-ai-technology-free-photo.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn1:hover {
+    background-color: rgb(223, 15, 77);
+    transition: 0.5s;
+}
+
+.features-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 0;
+    background-color: #fff;
+    font-family: 'Arial', sans-serif;
+    justify-content: center;
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.feature-item img {
+    width: 80px;
+    height: 80px;
+    background-color: #FFEB3B;
+    /* Yellow circle */
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.label {
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card:hover {
+    box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    transition: 0.5s
+}
+.apple{
+    background:url("https://st5.depositphotos.com/3776273/61705/i/450/depositphotos_617053982-stock-photo-happy-cute-girl-catches-apple.jpg")no-repeat;
+    background-size: cover;
+    margin-top: 70px;
+    height: 75vh;
+    width: 100%;
+}
+.font-weight-bold{
+    color: black;
+    font-family: cursive;
+}
+.container{
+    margin-top: 15px;
+}
